@@ -1,7 +1,7 @@
 <template>
   <v-card height="350"
           class="sminka text--white pa-2 d-flex flex-column justify-space-between">
-    <img :src="sminka.image_link "></img>
+    <img :src="sminka.image_link " />
     <h3 class="text-center sminka-title">{{ sminka.brand }}</h3>
     <h6>{{ sminka.name }}</h6>
     <h6>Price: {{ sminka.price }} {{ sminka.price_sign }}</h6>
